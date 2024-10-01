@@ -17,7 +17,7 @@ Select Name + ': ' + Color as "Name and Color" from Production.Product where Col
 -- NAME: Chainring Bolts  --  COLOR: Silver
 -- NAME: Chainring Nut  --  COLOR: Silver
 -- NAME: Chainring  --  COLOR: Black
-Select 'NAME: ' + Name + ' -- ' + 'COLOR: ' + Color as "Name and Color" from Production.Product where Color in ('Black', 'Silver') and (Name like '%Crankarm' or Name like '%Chainring%') ORDER BY Name desc;
+Select 'NAME: ' + Name + ' -- ' + 'COLOR: ' + Color as "Name and Color" from Production.Product where Color in ('Black', 'Silver') and (Name like '%Crankarm' or Name like 'Chainring%') ORDER BY Name desc;
 -- q8 Write a query to retrieve the to the columns ProductID and Name from the Production.Product table filtered by ProductID from 400 to 500
 Select ProductId, Name from Production.Product where ProductID BETWEEN 400 and 500;
 -- q9 Write a query to retrieve the to the columns  ProductID, Name and color from the Production.Product table restricted to the colors black and blue
@@ -43,6 +43,6 @@ Select Name, ListPrice from Production.Product where (Name like 'seat%' or Name 
 -- Seat Post                                     0,00
 Select Name, ListPrice from Production.Product where Name like 'A%' or Name like 'S%' ORDER BY Name;
 -- q13 Write a query so you retrieve rows that have a Name that begins with the letters SPO, but is then not followed by the letter K. After this zero or more letters can exists. Order the result set by the Name column.
-Select * from Production.Product where Name like 'SPO%' and Name not like 'SPOK%' ORDER BY Name;
+Select * from Production.Product where Name like 'SPO[^K]%' ORDER BY Name;
 -- q14 Write a query that retrieves unique colors from the table Production.Product. Order the results  in descending  manner.
-Select DISTINCT Color from Production.Product;
+Select DISTINCT Color from Production.Product ORDER BY Color Desc;
