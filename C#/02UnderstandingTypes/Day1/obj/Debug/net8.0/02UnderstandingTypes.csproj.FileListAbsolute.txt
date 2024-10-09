@@ -1,0 +1,15 @@
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.exe
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.deps.json
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.runtimeconfig.json
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.dll
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\bin\Debug\net8.0\02UnderstandingTypes.pdb
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.AssemblyInfoInputs.cache
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.AssemblyInfo.cs
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.csproj.CoreCompileInputs.cache
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.sourcelink.json
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.dll
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\refint\02UnderstandingTypes.dll
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.pdb
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\02UnderstandingTypes.genruntimeconfig.cache
+D:\Dev\antra\Learning\C#\02UnderstandingTypes\02UnderstandingTypes\obj\Debug\net8.0\ref\02UnderstandingTypes.dll

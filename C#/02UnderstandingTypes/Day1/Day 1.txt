@@ -1,0 +1,84 @@
+Assignment 1
+Understanding Data Types
+1.	What type would you choose for the following “numbers”?
+a.	A person’s telephone number
+String, because telephone numbers might have special characters like “-“ and “+”
+b.	A person’s height
+Float. Double could work but there is no need for so many digits of precision.
+c.	A person’s age
+Float, assuming it’s stored in years as a decimal to account for months.
+If months are not taken into account, use byte as age will not exceed 255 and cannot be negative.
+d.	A person’s gender (Male, Female, Prefer Not To Answer)
+Enum. 
+e.	A person’s salary
+uint. Salary cannot be negative and does not exceed 4292967295.
+f.	A book’s ISBN
+String. ISBN contains special characters like “-“, so they should be strings.
+g.	A book’s price
+Float.
+h.	A book’s shipping weight
+Float
+i.	A country’s population
+j.	The number of stars in the universe
+BigInteger. There are many stars in the universe, and there has to be a whole number of stars. BigInteger can ensure enough space to store the number of stars.
+k.	The number of employee’s in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business)
+ushort. There can’t be a negative number of employees, and there won’t be more than 65535 employees per business.
+2.	What are the difference between value type and reference type variables? What is boxing and unboxing?
+Value types are stored in the stack, while reference types are stored in the heap with the reference to it stored in the stack. Each value type variable stores its own variable, while two reference type variables might point to the same object, so changes to one reference variable might affect another reference variable. Value types have a default value and cannot be null by default, whereas reference types are null if not initialized. Value types are immutable, and modifying a value type variable replaces the existing value. Reference types are mutable, so the object’s data can be changed without creating a new object.
+
+Boxing is the process of converting a value type to a reference type by wrapping the value in an object. Unboxing is the reverse process when a boxed value is converted back to its original value type.
+3.	What is meant by the terms managed resource and unmanaged resource in .NET?
+Managed resources are resources that are directly handled and managed by the .NET runtime. The garbage collector will automatically take care of these resources. Variables are managed resources. Unmanaged resources are resources that the developer needs to manually manage, and they are responsible for disposing or releasing those resources. Database connections and file handlers are unmanaged resources.
+4.	What is the purpose of Garbage Collector in .NET
+The garbage collector automatically manages memory by reclaiming the memory of objects that are no longer referenced by the application. It prevents memory leaks and ensures efficient memory use.
+
+Controlling Flow and Converting Types
+1.	What happens when you divide an int variable by 0?
+You get Error : Division by constant zero.
+2.	What happens when you divide a double variable by 0?
+You get infinity
+3.	What happens when you overflow an int variable, that is, set it to a value beyond its range?
+The value will wrap around to the minimum value because an overflow occurs.
+4.	What is the difference between x = y++; and x=++y;?
+For the first one, x is set to the value of y, then y is incremented by one. For the second one, y is incremented by one, then x is set to that value.
+5.	What is the difference between break, continue, and return when used inside a loop statement?
+Break is used to exit the loop. Continue is used to move to the next iteration of the loop. Return is used to exit the method.
+6.	What are the three parts of a for statement and which of them are required?
+The three parts are initialization (int i=0), condition for which the loop should continue (i<10), and changing of the variable (i++). None of them are required. 
+7.	What is the difference between the = and == operators?
+= is used for assignment. For example x=5 assigns the value of 5 to variable x. == is used for comparison. It returns true if both values are equal and false otherwise.
+8.	Does the following statement compile? For (;true;);
+The loop will run forever.
+9.	What does the underscore _ represent in a switch expression?
+The underscore is used for the default case.
+10.	What interface must an object implement to be enumerated over by using the foreach statement?
+The IEnumerable interface.
+
+Practice loops and operators
+1.	What will happen if this code executes?
+int max = 500;
+for (byte i = 0; i < max; i++)
+{
+WriteLine(i);
+}
+Create a console application and enter the preceding code. Run the console application
+and view the output. What happens?
+	The loop runs forever because variable i overflows to 0.
+What code could you add (don’t change any of the preceding code) to warn us about the
+problem?
+	You can add a check and print a warning when i is equal to 255, which is the maximum value for a byte.
+
+Assignment 2
+02 Arrays and Strings
+1.	When to use String vs. StringBuilder in C#?
+Use StringBuilder when the string needs to be modified often since it is mutable. Use String when the String only needs to be declared once since it is immutable. 
+2.	What is the base class for all arrays in C#?
+The base class is System.Array.
+3.	How do you sort an array in C#?
+Use Array.Sort() method to sort in ascending order and Array.Reverse() method to sort in descending order.
+4.	What property of an array object can be used to get the total number of elements in an array?
+Use the Length property
+5.	Can you store multiple data types in System.Array?
+Yes if the array type is object (ie object[])
+6.	What is the difference between the System.Array.CopyTo() and System.Array.Clone()?
+System.Array.CopyTo() copies the elements of one array into another existing array. Array.Clone() creates a new array object with the same element as the cloned array.
