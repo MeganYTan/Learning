@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithMethods", "WorkingWithMethods\WorkingWithMethods.csproj", "{D25C2BC3-A963-4302-8229-124E722E4B7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorAndBall", "ColorAndBall\ColorAndBall.csproj", "{9748B87B-6865-44E9-B1CD-481803A3DC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeManager", "CollegeManager\CollegeManager.csproj", "{4BDAEB61-3A10-4DD0-8A51-78122DDBADDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25C2BC3-A963-4302-8229-124E722E4B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25C2BC3-A963-4302-8229-124E722E4B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25C2BC3-A963-4302-8229-124E722E4B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25C2BC3-A963-4302-8229-124E722E4B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9748B87B-6865-44E9-B1CD-481803A3DC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9748B87B-6865-44E9-B1CD-481803A3DC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9748B87B-6865-44E9-B1CD-481803A3DC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9748B87B-6865-44E9-B1CD-481803A3DC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDAEB61-3A10-4DD0-8A51-78122DDBADDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDAEB61-3A10-4DD0-8A51-78122DDBADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDAEB61-3A10-4DD0-8A51-78122DDBADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDAEB61-3A10-4DD0-8A51-78122DDBADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

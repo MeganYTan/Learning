@@ -1,0 +1,15 @@
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\bin\Debug\net8.0\ColorAndBall.exe
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\bin\Debug\net8.0\ColorAndBall.deps.json
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\bin\Debug\net8.0\ColorAndBall.runtimeconfig.json
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\bin\Debug\net8.0\ColorAndBall.dll
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\bin\Debug\net8.0\ColorAndBall.pdb
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.AssemblyInfoInputs.cache
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.AssemblyInfo.cs
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.csproj.CoreCompileInputs.cache
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.sourcelink.json
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.dll
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\refint\ColorAndBall.dll
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.pdb
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ColorAndBall.genruntimeconfig.cache
+D:\Dev\antra\Learning\C#\Assignment3\ColorAndBall\obj\Debug\net8.0\ref\ColorAndBall.dll

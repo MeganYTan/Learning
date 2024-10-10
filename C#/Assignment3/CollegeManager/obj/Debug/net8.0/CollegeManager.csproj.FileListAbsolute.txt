@@ -1,0 +1,15 @@
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\bin\Debug\net8.0\CollegeManager.exe
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\bin\Debug\net8.0\CollegeManager.deps.json
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\bin\Debug\net8.0\CollegeManager.runtimeconfig.json
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\bin\Debug\net8.0\CollegeManager.dll
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\bin\Debug\net8.0\CollegeManager.pdb
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.AssemblyInfoInputs.cache
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.AssemblyInfo.cs
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.csproj.CoreCompileInputs.cache
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.sourcelink.json
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.dll
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\refint\CollegeManager.dll
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.pdb
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\CollegeManager.genruntimeconfig.cache
+D:\Dev\antra\Learning\C#\Assignment3\CollegeManager\obj\Debug\net8.0\ref\CollegeManager.dll

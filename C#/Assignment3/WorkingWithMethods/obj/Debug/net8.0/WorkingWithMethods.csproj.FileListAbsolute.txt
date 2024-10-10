@@ -1,0 +1,15 @@
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\bin\Debug\net8.0\WorkingWithMethods.exe
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\bin\Debug\net8.0\WorkingWithMethods.deps.json
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\bin\Debug\net8.0\WorkingWithMethods.runtimeconfig.json
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\bin\Debug\net8.0\WorkingWithMethods.dll
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\bin\Debug\net8.0\WorkingWithMethods.pdb
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.AssemblyInfoInputs.cache
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.AssemblyInfo.cs
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.csproj.CoreCompileInputs.cache
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.sourcelink.json
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.dll
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\refint\WorkingWithMethods.dll
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.pdb
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\WorkingWithMethods.genruntimeconfig.cache
+D:\Dev\antra\Learning\C#\Assignment3\WorkingWithMethods\obj\Debug\net8.0\ref\WorkingWithMethods.dll
