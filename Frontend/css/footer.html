@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://kit.fontawesome.com/38935a1471.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .j-center {
+            justify-content: center;
+        }
+
+        .j-around {
+            justify-content: space-around;
+        }
+        .bold {
+            font-weight: bold;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            border-bottom: 1px solid;
+            padding: 5px;
+        }
+        address {
+            font-style: normal;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        h2 {
+            font-size: medium;
+        }
+        #footer-top {
+            background-color: darkgray;
+            color:white;
+        }
+        #footer-bottom {
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        #button-bar button {
+            cursor: pointer;
+        }
+        address a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="flex-col">
+    <div class="fg-1"></div>
+    <footer>
+        <div class = "flex j-around" id = "footer-top">
+            <section>
+                <h2>
+                    Corporate Office:
+                </h2>
+                <address>
+                    21355 Ridgetop Circle<br>
+                    Suite #300<br>
+                    Dulles, VA 20166<br>
+                    Ph: <a href="tel:7039944545">703-994-4545</a><br>
+                    Email: <a href="mailto:info@antra.net">info@antra.net</a>
+                </address>
+            </section>
+            <section>
+                <h2>Services</h2>
+                <ul>
+                    <li>Technology Services</li>
+                    <li>Business Advisory Services</li>
+
+                    <li>Professional Services</li>
+                    <li>Blog</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Resources</h2>
+                <ul>
+                    <li>Case Studies</li>
+                    <li>White Papers</li>
+                    <li>Technology Resources</li>
+                    <li>Top Technology Trends 2017</li>
+                    <li>Agile Transformations</li>
+                    <li>Web & Mobile Application Development</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Our Locations</h2>
+                <div>
+                    <img src = "https://antra.com/wp-content/uploads/2022/04/world-map-img-foot-1-300x155.png" height = "200px" width = "auto">
+                </div>
+            </section>
+        </div>
+        <div class="flex j-around" id="footer-bottom">
+            <section>
+                @2017 Antra Inc. All Rights Reserved
+            </section>
+            <section id="button-bar" class="flex">
+                <a href="https://www.facebook.com" target="_blank">
+                    <button class="facebook"><i class="fab fa-facebook-f"></i></button>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <button class="linkedin"><i class="fab fa-linkedin-in"></i></button>
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <button class="twitter"><i class="fab fa-twitter"></i></button>
+                </a>
+            </section>
+        </div>
+    </footer>
+</body>

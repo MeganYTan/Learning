@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://kit.fontawesome.com/38935a1471.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .wrapper {
+            background-color: darkblue;
+            color: lightgray;
+            padding: 0 15px 0 15px;
+        }
+
+        #header-content {
+            flex-grow: 1;
+            justify-content: center;
+            row-gap: 5px;
+        }
+
+        #nav,
+        #dropdown {
+            justify-content: flex-end;
+            column-gap: 25px;
+        }
+
+        #search-bar {
+            column-gap: 0px;
+        }
+        #search-bar input {
+            border-right: none;
+        }
+        #search-bar button {
+            border-left: none;
+        }
+
+        #dropdown {}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper flex">
+            <div id="logo-div">
+                <img src="https://antra.com/wp-content/uploads/2023/03/Antra-black.png" width="150" height="auto">
+            </div>
+            <div id="header-content" class="flex-row">
+                <div id="nav" class="flex">
+                    <div>
+                        0
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                    <div>
+                        User
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="flex" id="search-bar">
+                        <input placeholder="search">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div id="dropdown" class="flex">
+                    <div>News</div>
+                    <div>About the university
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div>Training courses
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div>For companies</div>
+                    <div>Forum</div>
+                    <div>Contacts</div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
